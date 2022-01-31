@@ -1,5 +1,4 @@
 import React from 'react'
-import {} from 'bootstrap'
 export const Card = ({ personaje }) => {
 	return (
 		<section className='personaje'>
