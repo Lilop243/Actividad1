@@ -83,3 +83,20 @@
 <img src="./encanto.jpg" alt="">
 
 <br> <br> <br>
+
+
+<section className='filtrar'>
+  <input
+    type='text'
+    placeholder='Nombre del personaje'
+    name='buscar'
+    onChange={handleInput}
+    value={filter}
+  />
+</section>
+
+
+<Link style={{ margin: '10px' }} to={`/Nada/${todo1.id}/bebidas`} key={todo1.id} ><img src={todo1.imagen} alt="" />
+</Link>
+
+<li></li>

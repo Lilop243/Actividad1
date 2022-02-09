@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 export const Card = ({ personaje }) => {
 	return (
 		<section className='personaje'>
@@ -9,11 +11,11 @@ export const Card = ({ personaje }) => {
 
 			<div className='personaje-body '>
 				<figure>
-					<img src={personaje.image} class="img-thumbnail" alt={personaje.price} />
+					{/* <img src={personaje.image} class="img-thumbnail" alt={personaje.price} /> */}
 				</figure>
 
          <div>
-                <h2>{personaje.name}</h2>
+                <h2>{personaje.title}</h2>
         </div>
 				
 			</div>

@@ -11,7 +11,7 @@ function App() {
 		const getPersonajes = async () => {
 			try {
 				const response = await fetch(
-					'https://raw.githubusercontent.com/jennymontoya1001/endpointheroesjson/main/starwars.json'
+					'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=4c8107c4f6802699714f6cec486ab8a0&page=1'
 				)
 				const data = await response.json()
 				setPersonajes(data.results)
