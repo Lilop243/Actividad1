@@ -29,8 +29,8 @@ function App() {
 
 	return (
 		<div className='container'>
-			<h1>Star Wars</h1>
-      <hr/>
+
+      
 			{/* form filtrar */}
 			<Filtrar filter={filter} setFilter={setFilter} />
 			{/* form filtrar */}

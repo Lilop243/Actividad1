@@ -9,7 +9,7 @@ export const Card = ({ personaje }) => {
 
 			<div className='personaje-body '>
 				<figure>
-					<img src={personaje.image} class="img-thumbnail" alt={personaje.name} />
+					<img src={personaje.image} class="img-thumbnail" alt={personaje.price} />
 				</figure>
 
          <div>

@@ -1,17 +1,24 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap';
+<div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="http://jean.4boot.com.ve/pruebas/2/images/maestro-logos.png" height="100" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="http://jean.4boot.com.ve/pruebas/2/images/visa-logos.png" height="100" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="http://jean.4boot.com.ve/pruebas/2/images/maestro-logos.png" height="100" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="http://jean.4boot.com.ve/pruebas/2/images/maestro-logos.png" height="100" width="250" alt="">
+		</div>
+		<div class="slide">
+			<img src="http://jean.4boot.com.ve/pruebas/2/images/amex-logos.png" height="100" width="250" alt="">
+		</div>
+	</div>
+</div>
 
-export const Filtrar = ({ filter, setFilter }) => {
-	const handleInput = ({ target }) => {
-		setFilter(target.value)
-	}
-
-  
-
-	return (
-
-    <div>
+<div>
     <nav class="navbar navbar-light ">
         <div class="container-fluid">
         <img className='logo' src="../favicon.svg" alt=""/>
@@ -29,14 +36,17 @@ export const Filtrar = ({ filter, setFilter }) => {
           </form>
         </div>
       </nav>
-     
-      {/* slider */}
-      <div className=''>
+</div>
+
+<ReactCSSTransitionGroup/>
+
+
+<div>
   <Carousel>
     <Carousel.Item  interval={1000}>
       <img
         className="d-block w-100"
-        src="./encan.svg"
+        src="https://as01.epimg.net/meristation/imagenes/2020/09/30/noticias/1601498876_582320_1601498920_noticia_normal.jpg"
         alt="First slide"
       />
       <Carousel.Caption>
@@ -47,7 +57,7 @@ export const Filtrar = ({ filter, setFilter }) => {
     <Carousel.Item interval={500}>
       <img
         className="d-block w-100"
-        src="./spiderman.svg"
+        src="https://as01.epimg.net/meristation/imagenes/2020/09/30/noticias/1601498876_582320_1601498920_noticia_normal.jpg"
         alt="Second slide"
       />
       <Carousel.Caption>
@@ -58,7 +68,7 @@ export const Filtrar = ({ filter, setFilter }) => {
     <Carousel.Item>
       <img
         className="d-block w-100"
-        src="./spacejam.svg"
+        src="https://as01.epimg.net/meristation/imagenes/2020/09/30/noticias/1601498876_582320_1601498920_noticia_normal.jpg"
         alt="Third slide"
       />
       <Carousel.Caption>
@@ -69,11 +79,7 @@ export const Filtrar = ({ filter, setFilter }) => {
   </Carousel>
   
 </div>
-<br/> <br/> <br/>
-     
-</div>
-		
 
+<img src="./encanto.jpg" alt="">
 
-	)
-}
+<br> <br> <br>

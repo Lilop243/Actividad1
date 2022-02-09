@@ -4,15 +4,15 @@
 	box-sizing: border-box;
 }
 
-h1{
+/* h1{
     font-size: 60px;
     text-align: center;
     margin-top: 20px;
-}
+} */
 
-html {
+/* html {
 	font-size: 62.5%;
-}
+} */
 
 :root {
 	--color-primary: #08b2c9;
@@ -22,9 +22,7 @@ html {
 }
 
 body {
-	font-size: 1.6rem;
-	font-family: '';
-	background-image: url('https://image.freepik.com/foto-gratis/cielo-estrellado_1048-11828.jpg');
+	background-color: #151515;
 	color: var(--color-light);
 }
 
@@ -36,29 +34,28 @@ body {
 }
 
 .logo {
-	width: 22rem;
-	margin: 4rem auto;
-}
-.logo img {
-	width: 100%;
+	margin-top: -15px;
 }
 
-.filtrar {
+
+/* .filtrar {
 	width: 100%;
-	max-width: 60rem;
+	max-width: 40rem;
 	margin: 0 auto;
 	margin-bottom: 4rem;
-    margin-top: 20px;
-}
-input {
-	height: 4rem;
+    margin-top: 15px;
+} */
+/* input {
+	height: 3rem;
 	border: none;
 	border-radius: 0.5rem;
-	padding: 0 1rem;
+	padding: 0 8rem;
 	outline: var(--color-primary);
 	width: 100%;
+} */
+#inpu input{
+	
 }
-
 .lista-personajes {
 	width: 100%;
 	display: grid;
@@ -134,7 +131,31 @@ input {
 	font-weight: bold;
 }
 
-@media screen and (min-width: 600px) {
+.container-fluid a{
+	color: white;
+}
+/* 
+.opciones{
+	margin-top:52px;
+justify-content:center;
+display:flex;
+} */
+
+ /* .nav{
+	list-style-type: none;
+} 
+
+.nav-item{
+	float: left;
+	text-align: center;
+	width: 10em;
+	margin-top: 25px;
+} 
+ */
+
+
+
+@media screen and (min-width: 700px) {
 	.lista-personajes {
 		grid-template: auto / repeat(2, 1fr);
 	}
@@ -145,3 +166,5 @@ input {
 		grid-template: auto / repeat(3, 1fr);
 	}
 }
+
+
